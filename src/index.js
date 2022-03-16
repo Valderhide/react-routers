@@ -5,7 +5,7 @@ import Expenses from "./expenses";
 import Invoices from "./invoices";
 
 const rootElement = document.getElementById("root");
-render(<App />, 
+render(
 <BrowserRouter>
 <Routes>
 <Route path= "/" element={<App />} />
